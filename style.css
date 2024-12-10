@@ -1,0 +1,83 @@
+
+
+
+/* banner fontu için*/
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+}
+
+.ortala {
+  text-align: center;
+}
+
+
+
+/* Bağlantı Stilini Ayarlama */
+.fancy-link {
+  text-decoration: none;
+  /* Alt çizgiyi kaldırır */
+  color: #3498db;
+  /* Mavi renk */
+  font-weight: bold;
+  /* Kalın yazı */
+  padding: 10px 20px;
+  /* İç boşluk */
+  border: 2px solid #3498db;
+  /* Kenar çizgisi */
+  border-radius: 25px;
+  /* Köşeleri yuvarlatma */
+  transition: all 0.3s ease;
+  /* Geçiş efekti */
+}
+
+.fancy-link:hover {
+  background-color: #3498db;
+  /* Arka plan rengi mavi */
+  color: white;
+  /* Metin rengi beyaz */
+}
+
+
+
+.basic-button {
+  background-color: #ffffff;
+  /* Arka plan rengi */
+  color: black;
+  /* Metin rengi */
+  border: none;
+  /* Kenar çizgisi yok */
+  padding: 10px 20px;
+  /* İç boşluk */
+  text-align: center;
+  /* Metni ortalar */
+  text-decoration: none;
+  /* Alt çizgi yok */
+  display: inline-block;
+  /* Satır içi blok elementi */
+  font-size: 16px;
+  /* Yazı boyutu */
+  margin: 4px 2px;
+  /* Dış boşluk */
+  cursor: pointer;
+  /* Fare imlecini işaretçiye çevirir */
+  border-radius: 16px;
+  /* Köşeleri yuvarlar */
+  transition: background-color 0.3s, color 0.3s;
+  /* Geçiş efektleri */
+}
+
+.basic-button:hover {
+  background-color: #2980b9;
+  
+  color: #ffffff;
+ 
+}
+
+
+
+
+
+
+
+
+
